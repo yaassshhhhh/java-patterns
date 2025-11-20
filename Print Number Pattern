@@ -1,0 +1,26 @@
+public class Halfpyramidnum {
+    public static void main(String[] args) {
+        int n = 10;
+        for(int line = 1;line <= n;line++){
+            // inner loop for numbers
+            for(int number=1;number<=line;number++){
+                System.out.print(number);
+            }
+            System.out.println();
+        }
+    }
+}
+
+---------------------------------------------------------------
+output
+---------------------------------------------------------------
+1
+12
+123
+1234
+12345
+123456
+1234567
+12345678
+123456789
+12345678910
